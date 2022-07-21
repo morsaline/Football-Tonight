@@ -180,6 +180,17 @@ footer a {
 .socials {
   margin: 3rem 2rem;
 }
+
+/* bonus button */
+.b-btn {
+  background-color: #dd0000;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: auto;
+  display: none;
+}
+
 /* large devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
   .header-sec .header-text h1 {
@@ -217,6 +228,11 @@ footer a {
   }
   .upcm-content {
     text-align: center;
+  }
+  .b-btn {
+    display: block;
+    margin-top: 4rem;
+    color: white;
   }
 }
 
